@@ -11,6 +11,73 @@
         .payment-card:hover { border-color: #2563eb; transform: translateY(-2px); transition: 0.3s; }
         #chat-messages::-webkit-scrollbar { width: 4px; }
         #chat-messages::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+
+
+        /* ফুটার */
+        footer { background-color: #2c3e50; color: white; padding: 40px 0 10px; text-align: center; }
+        .quick-links { display: flex; justify-content: center; gap: 25px; margin-bottom: 20px; flex-wrap: wrap; }
+        .quick-links a { color: #fbc02d; text-decoration: none; font-weight: 500; transition: color 0.3s; }
+        .quick-links a:hover { color: white; text-decoration: underline; }
+        .footer-info { margin-top: 15px; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 10px; font-size: 14px; }
+    
+    .btn-link {
+    /* আগের কোডগুলো থাকবে... */
+    margin-bottom: 30px; /* বাটন এবং সেকশনের নিচের বর্ডারের মাঝে ফাঁকা তৈরি করবে */
+       }
+
+    /* বাটনের সাধারণ স্টাইল */
+.btn-link {
+    display: inline-block;
+    padding: 10px 25px;
+    margin-top: 15px;
+    background-color: #f59e0b; /* অ্যাম্বার বা কমলা রঙ */
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+/* বাটনে হোভার করলে যা হবে */
+.btn-link:hover {
+    background-color: #d97706;
+    transform: scale(1.05);
+    color: #fff;
+}
+
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s, opacity 0.8s;
+    font-size: 14px;
+}
+
+.social-btn:hover {
+    transform: translateY(-5px);
+    opacity: 0.9;
+}
+
+/* সোশ্যাল মিডিয়া কালার */
+.btn-fb { background-color: #1877F2; } /* Facebook */
+.btn-wa { background-color: #25D366; } /* WhatsApp */
+.btn-imo { background-color: #2196F3; } /* IMO (Blue variant) */
+
     </style>
 </head>
 <body class="pb-10">
@@ -37,7 +104,7 @@
                 <ul class="mt-4 space-y-2 text-gray-600 flex-grow">
                     <li><i class="fas fa-check-circle text-green-500 mr-2"></i>(101 No) Facebook Full Service And Support all time,</li>
                     <li><i class="fas fa-check-circle text-green-500 mr-2"></i>ফেসবুক পেজ ও প্রোফাইল এর জন্য ভালো, মানের ফলোয়ার, যেকোনো দেশের নিতে পারবেন ।
-এছাড়া ও পোস্ট বুস্ট, পোস্ট লাইক কমেন্ট, এবং Group মেম্বার, FB- Cyber Expert পরামর্শ,  তাহলে আর দেরি কেন এখনি যোগাযোগ করুন।</li>
+                   এছাড়া ও পোস্ট বুস্ট, পোস্ট লাইক কমেন্ট, এবং Group মেম্বার, FB- Cyber Expert পরামর্শ,  তাহলে আর দেরি কেন এখনি যোগাযোগ করুন।</li>
                 </ul>
                 <div class="mt-2">
                     <div class="text-1xl font-black text-blue-600 mb-2">🚀 24/7 Full Support</div>
@@ -84,10 +151,9 @@
         </div>
 
             </div>
-        <a href="https://digital-marketing-expert-bangladesh-wheat.vercel.app/" target="_blank" style="display:block;">
-        <img src="https://uploads.onecompiler.io/44erpqqpq/44f2rkpyy/7764.gif"  alt="aud" 
-       style="width:100%; height:auto;"></a>
+            <img src="https://uploads.onecompiler.io/44erpqqpq/44f2rkpyy/7764.gif" alt="Showcase Image" style="pointer-events: none;" ondragstart="return false;" width="100%">
             </div>
+             </div>
             <h2 class="text-1xl font-black text-center mb-6">কি কি উপায়ে আমাদেরকে পেমেন্ট করতে পারবেন ।</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
                 <div class="payment-card border-2 p-4 rounded-2xl flex flex-col items-center bg-pink-50 border-pink-200"><span class="font-bold text-pink-600 text-xl">bKash Pay</span></div>
@@ -105,10 +171,11 @@
             </form>
         </section>
     </main>
-
-    <footer class="mt-20 py-10 text-center text-gray-500">
-        <p>© ২০২৬ Digital Marketing Expert | Milon Hossen Nahid Cyber Security Expert All Rights Reserved</p>
-    </footer>
+    
+      </div>
+       <div class="mt-5">
+        <img src="https://uploads.onecompiler.io/44r2t5fug/1780676107525/16452.jpg" alt="Showcase Image" style="pointer-events: none;" ondragstart="return false;" width="100%">
+       </div>
 
     <div class="fixed bottom-6 right-6 z-50">
         <button onclick="toggleChat()" class="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-2xl transition-all">
@@ -133,6 +200,21 @@
         </div>
     </div>
 
+      <footer>
+            <h1>Social Media & Digital Marketing Expert Solutions</h1>
+         <p style="color:#40E0D0">Your Best Service in Facebook, YouTube, TikTok, Instagram, and Web App Development.</p>
+           <img src="https://uploads.onecompiler.io/44mtbptam/44mvg5cdn/13293.png" alt="Showcase Image" style="pointer-events: none;" ondragstart="return false;" width="50%">
+            <div class="quick-links">
+                <a href="https://wa.me/8801968405571" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp: +8801968405571</a>
+                <a href="mailto:kmd228786@gmail.com"><i class="fas fa-envelope"></i> Gmail: kmd228786@gmail.com</a>
+            </div>
+            <div class="footer-info">
+              &copy; 2026 Social Media & Digital Marketing Expert Solutions
+           </div>
+        </div>
+         <img src="https://uploads.onecompiler.io/44q8ezv2q/44q8f2zv3/15377.avif" alt="Showcase Image" style="pointer-events: none;" ondragstart="return false;" width="100%">
+    </footer>
+    
     <script>
         const API_KEY = "AIzaSyA2Lxsa_0bWXZfCQvwMhnvUFZVZVfUWe80"; // আপনার এপিআই কি সরাসরি সেট করা হয়েছে
 
