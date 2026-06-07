@@ -1,0 +1,15 @@
+img {
+    /* মোবাইল ব্রাউজারে লং-প্রেস মেনু বন্ধ করার জন্য */
+    -webkit-touch-callout: none; 
+    
+    /* ইমেজ সিলেকশন বন্ধ করার জন্য */
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    /* ইমেজ ড্র্যাগ (টেনে নেওয়া) বন্ধ করার জন্য */
+    -webkit-user-drag: none;
+    user-drag: none;
+}
